@@ -1,5 +1,12 @@
 package worldcup;
 
-public class fanBase {
-	int amountFans;
+public class FanBase {
+	private int fanNum;
+	private boolean loyal;
+	
+	public void jeer() {
+		System.out.println("uuuuhhhh");
+		
+	}
+
 }
